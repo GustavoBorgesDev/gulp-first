@@ -1,0 +1,105 @@
+/*CENTRALIZAR TODO CONTEUDO E TODA PAGINA*/
+.pagina-toda {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.pagina {
+	margin-bottom: 25px;
+}
+
+.centralizada {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pai-interna {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	margin-bottom: 40px;
+}
+
+.interna {
+	padding: 15px 5px;
+}
+
+form{
+	margin: 0 auto;
+}
+
+.icon-bar {
+	color: red;
+}
+
+/*FORMATAÇÃO DAS INTERNAS*/
+
+.bread-format {
+	top: -25px;
+	position: relative;
+	padding-left: 7px;
+}
+
+.bread-text {
+	white-space: nowrap;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.space-row {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.titulo-das-internas {
+	font-size: 18pt;
+	top: -10px;
+	position: relative;
+	margin-left: 15px;
+	margin-bottom: 25px;
+	color: #314a5e;
+}
+
+.row-clientes {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.bloco-clientes {
+	margin: 5px auto;
+}
+
+.img-clientes {
+	margin: 0 18px;
+}
+
+.texto-sub-comum {
+	font-size: 14pt;
+	font-weight: bold;
+	margin-bottom: 9px;
+}
+
+.texto-comum {
+	font-size: 16px;
+	text-align: justify;
+}
+
+.bloco-cert {
+	margin-top: 0px;
+}
+
+.lista-botao {
+	margin: 10px 0;
+}
+
+.lista-estrutura > li {
+	padding-left: 7px;
+}
+
+.bolinhas {
+	font-size: 14pt;
+	color: #324957;
+}
+
+
+/*FIM INTERNAS*/

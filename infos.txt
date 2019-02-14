@@ -1,0 +1,22 @@
+https://stackoverflow.com/questions/44958216/how-to-minify-es6-functions-with-gulp-uglify
+
+gulp-uglify:
+
+For ES6 and newer.
+
+install: npm install --save-dev gulp-uglify
+install: npm install --save-dev gulp-babel @babel/core @babel/preset-env
+Usage:
+
+const gulp = require('gulp'); 
+const uglify = require('gulp-uglify');
+const babel = require('gulp-babel');
+
+gulp.task('script', () => {
+    return gulp.src('src/**/*.js')
+        .pipe(babel({
+            presets: ['@babel/env']
+        }))
+        .pipe(uglify())
+        .pipe(gulp.dest('src/dist'))
+});
